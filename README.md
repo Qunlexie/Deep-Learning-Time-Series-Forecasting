@@ -4,7 +4,7 @@ This project aimed to build a time series regression model to predict future hor
 Keywords: Time Series Forecasting, Linear Model, Non-Linear Model, Prophet, Neural Prophet, Deep Learning
 
 # Method 
-![Alt text](https://github.com/Qunlexie/Deep-Learning-Time-Series-Forecasting/blob/main/Deep%20Learning%20Forecasting%20Methodology.png?raw=true) 
+![Alt text](https://github.com/Qunlexie/Deep-Learning-Time-Series-Forecasting/blob/main/Deep%20Learning%20Forecasting%20Methodology.png?raw=true "Deep Learning Forecasting Methodology") 
 
 # Summary 
 This time series forecasting work evaluated two classes of models: the linear model (Prophet) and the non-linear model (Neural Prophet based on a deep learning architecture). Both tuned and pre-tuned variants of each model were examined, resulting in four models for forecasting the target variable over the next three horizons. The results indicated that the Tuned Neural Prophet model produced the lowest Mean Square Error, suggesting that it better captured the non-linear trends in the data.
