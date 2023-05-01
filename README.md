@@ -9,5 +9,5 @@ Keywords: Time Series Forecasting, Linear Model, Non-Linear Model, Prophet, Neur
 # Summary 
 This time series forecasting work evaluated two classes of models: the linear model (Prophet) and the non-linear model (Neural Prophet based on a deep learning architecture). Both tuned and pre-tuned variants of each model were examined, resulting in four models for forecasting the target variable over the next three horizons. The results indicated that the Tuned Neural Prophet model produced the lowest Mean Square Error, suggesting that it better captured the non-linear trends in the data.
 
-# Future Work 
+# Limitations and Future Work
 Despite the promising results obtained from this work, there are still opportunities for future work. One direction for future work would be to explore the use of other time series regression models like LSTM, GRU, and ConvLSTM, which are known for their ability to capture long-term dependencies and nonlinear patterns in time series data. Additionally, incorporating more exogenous variables or alternative feature engineering techniques, such as time-series cross-validation, may improve the model's performance. Finally, testing the models on larger and more diverse datasets with varying time-series characteristics could also provide more insights into the robustness and generalizability of the models developed in this work.
