@@ -2,6 +2,12 @@
 
 This GitHub repository contains the code and data used for a project aimed at building time series regression models to predict future horizons. The project involved conducting exploratory data analysis, feature engineering, and preprocessing. Both linear and non-linear time series forecasting models were explored, including Prophet and Neural Prophet.
 
+## Repository Structure
+- `README.md`: provides an overview of the project, its method, and results.
+- `Deep Learning Forecasting Methodology.png`: a diagram outlining the steps taken in the project.
+- `data.csv`: the dataset used for this project.
+- `time_series_forecasting.ipynb`: a Jupyter notebook containing the code used for data pre-processing, feature engineering, model selection, and model evaluation.
+
 ## Abstract
 This project aimed to build a time series regression model to predict future horizons using a provided dataset. The process involved conducting exploratory data analysis, feature engineering, and preprocessing. Both linear and non-linear time series forecasting models were explored, including Prophet and Neural Prophet. Two variants of each model were developed, including a pre-tuned model and a hyperparameter-tuned model. The models used feature engineered regressor variables such as time-based variables and the provided exogenous variables. Results showed that the Hyperparameter-tuned Neural Prophet model achieved the best performance. 
 
@@ -19,8 +25,3 @@ Despite the promising results obtained from this work, there are still opportuni
 ## Keywords
 Time Series Forecasting, Linear Model, Non-Linear Model, Prophet, Neural Prophet, Deep Learning
 
-## Files
-- `README.md`: provides an overview of the project, its method, and results.
-- `Deep Learning Forecasting Methodology.png`: a diagram outlining the steps taken in the project.
-- `data.csv`: the dataset used for this project.
-- `time_series_forecasting.ipynb`: a Jupyter notebook containing the code used for data pre-processing, feature engineering, model selection, and model evaluation.
